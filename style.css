@@ -130,6 +130,29 @@ li span {
   top: 60px;
 }
 
+.complete-title {
+  animation: complete 4s infinite;
+  text-shadow: 2px 2px rgba(0, 0, 0, .2);
+}
+
+@keyframes complete {
+  0% {
+    color: #006959;
+  }
+  25% {
+    color: #00917c;
+  }
+  50% {
+    color: #00e1bfe8;
+    transform: scale(1.03);
+  }
+  75% {
+    color: #00917c;
+  }
+  100%{
+    color: #006959;
+  }
+}
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
