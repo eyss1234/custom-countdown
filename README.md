@@ -1,7 +1,9 @@
 ## custom-countdown
 
-App that creates a countdown for date submitted by an user/
+App that creates a countdown for date submitted by an user
+
 Built using Date and localStorage
+
 This exercise is based on [Zero to Mastery Academy](https://zerotomastery.io/) course
 
 ### Features
