@@ -82,6 +82,7 @@ function updateCountdown(e) {
 
 // Reset all values
 function reset () {
+  e.preventDefault();
   // hide countdown and show input
   countdownEl.hidden = true;
   completeEl.hidden = true;
